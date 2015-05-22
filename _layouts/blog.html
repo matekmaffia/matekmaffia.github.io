@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{site.name}}</title>
+    <link rel="icon" href="/newlogo.png">
+	<meta charset="utf-8">
+    <meta name="description" content="{{site.description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <div class="container">
+		<br>
+		<div class="center-block">
+			<img src="/newlogo.png" alt="The logo of MatekMaffia" class="img-thumbnail center-block" width="125" height="125">
+			<br>
+			<p  class="text-center"><a href="/"><span class="glyphicon glyphicon-home"></span> Főoldal</a></p>
+		</div>
+		
+<h1>{{page.title}}</h1>
+<p class="muted">{{ page.date | date_to_long_string }}</p>
+{{content}}
+{%include footer.html%}

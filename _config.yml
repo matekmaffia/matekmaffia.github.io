@@ -1,0 +1,11 @@
+name: "MatekMaffia"
+description: "Matekmatika, Fizika, Informatika, Kémia..."
+
+url: "http://localhost:4000/"
+
+paginate: 5
+gems: [jekyll-paginate]
+
+markdown: rdiscount
+permalink: pretty
+
