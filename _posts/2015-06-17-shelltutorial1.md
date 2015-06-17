@@ -96,3 +96,7 @@ Ekkor ha beírjuk azt a parancsot, hogy "cd c/", akkor az "/a/c"-ben is vagy a "
 
 Így tehát a "cd c/" relatív, mert eredménye attól függ, hogy előzőleg milyen mappában álltunk és a "cd /a/c" abszolút, mert nem függ az előző helyzetünktől.
 
+
+folyt. köv.
+
+_@mraron_
