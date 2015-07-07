@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{site.name}}</title>
+    <link rel="icon" href="/newlogo.png">
+	<meta charset="utf-8">
+    <meta name="description" content="{{site.description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <div class="container">
+		<br>
+		<div class="center-block">
+			<img src="/newlogo.png" alt="The logo of MatekMaffia" class="img-thumbnail center-block" width="125" height="125">
+			<h3 class="header"><small>{{site.description}}</small></h3>
+		</div>
+		
+        <p class="container">
+	    	<ul class="nav nav-tabs">
+				<li role="presentation"><a href="/"><span class="glyphicon glyphicon-home"></span> Főoldal</a></li>
+				<li role="presentation"><a href="/projects"><span class="glyphicon glyphicon-tags"></span> Projektek</a></li>
+				<li role="presentation"><a href="/contact"><span class="glyphicon glyphicon-envelope"></span> Kapcsolat</a></li>
+				<li role="presentation" ><a href="/laws"><span class="glyphicon glyphicon-align-justify"></span> Szabályzat</a></li>
+				<li role="presentation" ><a href="/badges"><span class="glyphicon glyphicon-heart"></span> Média</a></li>
+				<li role="presentation" ><a href="/jslinux"><span class="glyphicon glyphicon-console"></span> JSLinux</a></li>
+				<li role="presentation" ><a href="/people"><span class="glyphicon glyphicon-user"></span> Tagjaink</a></li>
+
+				<li role="presentation"><a><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="M4Y8KGZ8B584Y">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></a>
+</li>				
+			</ul>
+			<br>
+		</p>
+
