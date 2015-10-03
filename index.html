@@ -4,7 +4,6 @@ layout: default
 ---
 
 
-
 <h1>Híreink</h1>
 
 {% for post in paginator.posts %}
@@ -14,18 +13,15 @@ layout: default
       <a href="{{ post.url }}">Read Post</a>
     </p>
 {% endfor %}
+<br>
+<br>
 
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
+<nav>
+  <ul class="pager">
+    {% if paginator.previous_page %}<li class="previous"><a href="{{ paginator.previous_page_path }}" class="previous">Előző</a>{% else %}<li class="previous disabled"><span class="previous">Előző</span>{% endif %}</li>
+    {% if paginator.next_page %}<li class="next"><a href="{{ paginator.next_page_path }}" class="next">Következő</a>{% else %}<li class="next disabled"><span class="next ">Következő</span>{% endif %}
+</li>
+  </ul>
+</nav>
+  <span class="page_number ">Oldal: {{ paginator.page }}/{{ paginator.total_pages }}</span>
+  
