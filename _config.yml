@@ -3,7 +3,7 @@ description: "Matekmatika, Fizika, Programozás, Kémia..."
 
 url: "http://localhost:4000/"
 
-paginate: 5
+paginate: 10
 gems: [jekyll-paginate]
 
 markdown: rdiscount
